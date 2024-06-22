@@ -1,0 +1,36 @@
+{
+  "name": "sfcc-cartridge-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate a new Salesforce Commerce Cloud cartridge",
+  "main": "bin/generate.js",
+  "bin": {
+    "sfcc-generate": "./bin/generate.js"
+  },
+  "scripts": {
+    "postinstall": "sfcc-generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcboreu/sfcc-cartridge-generator.git"
+  },
+  "keywords": [
+    "sfcc",
+    "cartridge",
+    "generator",
+    "cli"
+  ],
+  "author": {
+    "name": "Marc Boreu",
+    "email": "marcboreu@gmail.com",
+    "url": "https://marcboreu.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcboreu/sfcc-cartridge-generator/issues"
+  },
+  "homepage": "https://github.com/marcboreu/sfcc-cartridge-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "ncp": "^2.0.0"
+  }
+}
